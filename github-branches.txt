@@ -1,0 +1,3 @@
+ git branch -vv
+* bug-fix-revert 68285ed [origin/bug-fix-revert] Add bug fix revert verification
+  main           161b97c [origin/main] Add bug fix revert verification
