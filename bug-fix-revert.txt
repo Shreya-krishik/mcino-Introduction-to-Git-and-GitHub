@@ -1,2 +1,15 @@
-(Invoke-RestMethod "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/9166").head.repo.clone_url
-https://github.com/Shreya-krishik/mcino-Introduction-to-Git-and-GitHub.git
+$ curl -s https://api.github.com/repos/Shreya-krishik/mcino-Introduction-to-Git-and-GitHub/pulls
+
+[
+  {
+    "number": 1,
+    "state": "open",
+    "title": "Add simple interest script",
+    "head": {
+      "ref": "bug-fix-typo"
+    },
+    "base": {
+      "ref": "main"
+    }
+  }
+]
